@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="utf-8">
+
+	<head>
+		<title>Calculator </title>
+        <meta name="description" content="A basic HTML, CSS and JavaScript Calculator"> <!--the "name" attribute specifies a description of the page.-->
+        <!--Search engines can pick up this description to show with the results of the search-->
+        <meta name="author" content="Vicky Jones"> <!--"name" attribute specifies author of the page. -->
+        <script src="JavaScript/Calculator_JavaScript.js" defer></script>
+        <link rel="stylesheet" href="CSS/Calculator_CSS.css">
+		                     
+	</head>
+	
+	<body>
+
+        <div class="calculator">
+
+            <input type="text" class="calculator-screen" value="0"  disabled /> <!-- "disabled" means input element should be disabled-->
+            <!--A disabled input element is unusable and unclickable. The disabled attribute can be set to keep a user from using the input-->
+            <!--element until some other condition has been met (like selecting a checkbox etc). Then JS could remove the "disabled" value and make-->
+            <!--the input element usable-->
+            <!--"value = 0" means that the disabled attribute is applied when value = 0. In other words, you can keep pressing zero on the calculator-->
+            <!--as the first number and nothing happens. -->
+
+            <div class="calculator-keys">
+
+
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">&times;</button>
+            <button type="button" class="operator" value="/">&divide;</button>
+
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+
+            <button type="button" value="0">0</button>
+
+            <button type="button" class="decimal function" value=".">.</button>
+            <button type="button" class="all-clear function" value="all-clear">AC</button>
+            <button type="button" class= "equal-sign operator" value="=">=</button>
+
+            </div>
+
+    
+
+        </div>
+	
+	</body>
+	
+</html>
